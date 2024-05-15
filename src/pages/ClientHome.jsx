@@ -70,7 +70,7 @@ const ClientHome = () => {
             <div className="progress_container df">
                 <ProgressBar size={100} progress={50} indicatorColor='#4f5892' label='Красота' labelColor='#4f5892' />
                 <ProgressBar size={100} progress={70} indicatorColor='#8bbd2d' label='Зоровье' labelColor='#8bbd2d' />
-                <ProgressBar size={100} progress={30} indicatorColor='#da565a' label='Менталочка' labelColor='#da565a' />
+                <ProgressBar size={100} progress={30} indicatorColor='#da565a' label='Фитнес' labelColor='#da565a' />
             </div>
             <div className="filter_block dfc">
                 <span className="subheading">Какая услуга вам нужна?</span>
