@@ -76,9 +76,10 @@ const ClientHome = () => {
             <div className="filter_block dfc">
                 <span className="subheading">Какая услуга вам нужна?</span>
                 <div className="button_str df">
-                    <Button className="filter_button" onClick={getAllServices}>Маникюр</Button>
-                    <Button className="filter_button">Педикюр</Button>
+                    <Button className="filter_button" onClick={getAllServices}>Быстрые услуги</Button>
+                    <Button className="filter_button">Абонименты</Button>
                     <Button className="filter_button">Стрижка</Button>
+                    <Button className="filter_button">...</Button>
                 </div>
                 <div>{console.log(toString(produts))}</div>
             </div>
