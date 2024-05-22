@@ -33,7 +33,7 @@ function App() {
         <div className="App">
             <Header />
             {/*WebApp && <PrettyJson json={WebApp?.WebAppUser}/>*/}
-            {WebApp && <PrettyJson json={WebApp?.initData}/>}
+            {/*WebApp && <PrettyJson json={WebApp?.initData}/>*/}
             <Routes>
                 
                 <Route index element={<ClientHome/>}/>
